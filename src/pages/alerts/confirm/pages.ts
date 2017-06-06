@@ -8,10 +8,10 @@ import { AlertController } from 'ionic-angular';
 })
 export class ConfirmPage {
 
-  constructor(public alerCtrl: AlertController) { }
+  constructor(public alertCtrl: AlertController) { }
 
   doConfirm() {
-    let confirm = this.alerCtrl.create({
+    let confirm = this.alertCtrl.create({
       title: 'Use this lightsaber?',
       message: 'Do you agree to use this lightsaber to do good across the intergalactic galaxy?',
       buttons: [
